@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <nav>
+        <a href="/">Home</a> 
+        <a href="/">Taco Menu</a> 
+        <a href="/">Draft List</a>
+        <a href="/">Hours</a>
+        <a href="/">Directions</a>
+        <a href="/">Contact</a>  
+    </nav>
+    <section>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, ipsa harum quis enim deleniti dolorem sint. Aliquid, vero provident. Voluptas cum cumque ullam placeat ut!</p>
+    </section>
+    <section>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugit qui quod atque iure obcaecati ad amet. Tempore, quaerat, quis sapiente provident minus totam aspernatur quas consequuntur saepe, reprehenderit ipsa nam? Dolor, beatae accusantium. Rerum aut neque earum repellendus deserunt nobis accusantium, quasi, repellat minus nihil porro optio impedit id unde!</p>
+    </section>
+    <section>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, odit?</p>
+    </section>
+    <footer>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur doloribus vel animi in quaerat nihil.
+    </footer>
+    <style>
+    .container{
+        position: relative;   
+        
+    }
+    /*nav{
+        position: absolute;
+        left: 0px;
+        width: 200px;
+    }*/
+    /*nav{
+        display: inline-block;
+        vertical-align: top;
+        width: 25%;
+    }*/
+    @media screen and (min-width:600px){
+        nav{
+            float: left;
+            width: 25%;
+        }
+        section{
+            margin-left: 25%;
+        }
+    }
+    @media screen and (max-width:599px){
+        nav li{
+            display: inline;
+        }
+    }
+    .column{
+        display: inline-block;
+        vertical-align: top;
+        width: 75%;
+    }
+    /*section{
+        margin-left: 200px;
+    }*/
+    footer{
+        
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        height: 70px;
+        background-color: white;
+        width: 100%;
+        text-align: center;
+    }
+    body{
+        margin-bottom: 120px;
+    }
+    </style>
+</body>
+</html>
